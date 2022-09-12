@@ -143,3 +143,22 @@ header{
     width: calc(100% / 3 - 10px);
     background-color: bisque;
 }
+
+/* SECTION-4 */
+.section-4-container{
+    width: calc(60%);
+    height: 300px;
+    margin: 0 auto;
+}
+
+.sec-4-text{
+    height: calc(80%);
+    width: 100%;
+    background-color: brown;
+}
+
+.sec-4-link{
+    height: calc(20%);
+    width: 100%;
+    background-color: burlywood;
+}
