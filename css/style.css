@@ -9,3 +9,23 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* HEADER */
+header{
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    width: calc(30%);
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.header-right{
+    width: calc(30%);
+    background-color: blueviolet;
+    height: 100%;
+}
