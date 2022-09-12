@@ -67,3 +67,32 @@ header{
     background-color: lightcoral;
 }
 
+.section-1-container{
+    width: calc(60%);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.sec-1-title{
+    height: 80px;
+    width: 100%;
+    background-color: orangered;
+}
+
+.sec-1-row{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.sec-1-col{
+    width: calc(100% / 3 - 10px);
+    height: 70vh;
+    background-color: gold;
+}
+
+.sec-1-wide-col{
+    width: calc(100%);
+    height: 20vh;
+    background-color: violet;
+}
