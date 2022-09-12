@@ -226,3 +226,34 @@ header{
     height: calc(80%);
     background-color: goldenrod;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-container{
+    height: 400px;
+    width: calc(70%);
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-row{
+    width: calc(100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-col{
+    height: calc(80%);
+    width: calc(100% / 5 - 10px);
+    background-color: white;
+}
