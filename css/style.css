@@ -208,3 +208,21 @@ header{
     height: calc(100%);
     background-color: pink;
 }
+
+/* SECTION-7 */
+.section-7-container{
+    height: 400px;
+    width: calc(60%);
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.sec-7-title{
+    height: calc(20%);
+    background-color: lightsalmon;
+}
+
+.sec-7-text{
+    height: calc(80%);
+    background-color: goldenrod;
+}
