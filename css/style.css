@@ -44,3 +44,26 @@ header{
     width: calc(70%);
     background-color: lightgreen;
 }
+
+.jumbotron-title{
+    height: 20%;
+    width: 90%;
+    background-color: lightpink;
+}
+.jumbotron-row{
+    height: 100%;
+    display: flex;
+}
+
+.jumbotron-col-1{
+    width: 50%;
+    height: 80%;
+    background-color: aqua;
+}
+
+.jumbotron-col-2{
+    width: 50%;
+    height: 80%;
+    background-color: lightcoral;
+}
+
