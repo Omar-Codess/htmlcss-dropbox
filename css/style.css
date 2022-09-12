@@ -29,3 +29,18 @@ header{
     background-color: blueviolet;
     height: 100%;
 }
+
+/* JUMBOTRON */
+.jumbotron-section{
+    background-color: #b4d0e7;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.jumbotron-container{
+    height: calc(90%);
+    width: calc(70%);
+    background-color: lightgreen;
+}
