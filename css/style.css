@@ -118,3 +118,28 @@ header{
     width: 50%;
     background-color: orchid;
 }
+
+/* SECTION-3 */
+.section-3-container{
+    width: calc(60%);
+    height: 800px;
+    margin: 0 auto;
+}
+
+.sec-3-title{
+    height: calc(10%);
+    background-color: yellow;
+}
+
+.sec-3-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.sec-3-col{
+    height: 300px;
+    width: calc(100% / 3 - 10px);
+    background-color: bisque;
+}
