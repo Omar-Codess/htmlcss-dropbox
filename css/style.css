@@ -162,3 +162,30 @@ header{
     width: 100%;
     background-color: burlywood;
 }
+
+/* SECTION-5 */
+.section-5-container{
+    height: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.sec-5-companies{
+    width: calc(33%);
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-5-middle{
+    width: calc(34%);
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.sec-5-company{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    border: 1px solid black;
+}
