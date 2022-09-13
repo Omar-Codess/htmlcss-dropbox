@@ -207,10 +207,19 @@ header{
 
 .sec-1-wide-col{
     width: calc(100%);
-    height: 20vh;
-    background-color: violet;
+    height: 35vh;
+    border: 1px solid #e7e7e9;
+}
+.flex{
+    display: flex;
+}
+.wide-col-header{
+    width: calc(70%);
 }
 
+.wide-col-button{
+    width: calc(30%);
+}
 /* SECTION-2 */
 .section-2-container{
     width: calc(60%);
