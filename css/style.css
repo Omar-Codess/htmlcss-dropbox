@@ -10,7 +10,7 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
+header a{
     text-decoration: none;
     color: black;
 }
@@ -139,22 +139,70 @@ header{
 .sec-1-title{
     height: 80px;
     width: 100%;
-    background-color: orangered;
 }
 
 .sec-1-title{
     font-size: 1.7em;
 }
+
+.col-title{
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid #e7e7e9;
+}
+
+.col-package{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.radio-buttons{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mr{
+    margin-right: 30px;
+}
+
+.punti-salienti{
+    margin-top: 60px;
+
+}
+
 .sec-1-row{
     display: flex;
     gap: 10px;
     justify-content: space-between;
 }
 
+.fa-check{
+    color: #0061ff;
+}
 .sec-1-col{
     width: calc(100% / 3 - 10px);
-    height: 70vh;
-    background-color: gold;
+    height: 120vh;
+    border: 1px solid #e7e7e9;
+}
+
+.sec-1-col ul{
+    list-style-type: none;
+}
+.mb{
+    margin-bottom: 20px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.col-header{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ml{
+    margin-left: 20px;
 }
 
 .sec-1-wide-col{
