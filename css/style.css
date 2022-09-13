@@ -142,6 +142,9 @@ header{
     background-color: orangered;
 }
 
+.sec-1-title{
+    font-size: 1.7em;
+}
 .sec-1-row{
     display: flex;
     gap: 10px;
