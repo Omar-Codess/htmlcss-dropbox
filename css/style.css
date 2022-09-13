@@ -10,26 +10,66 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 /* HEADER */
 header{
     height: 80px;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
 }
 
 .header-left{
-    width: calc(30%);
-    background-color: blueviolet;
+    min-width: calc(30%);
     height: 100%;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.header-left img{
+    line-height: 80px;
+    vertical-align: middle;
 }
 
 .header-right{
-    width: calc(30%);
-    background-color: blueviolet;
+    min-width: calc(30%);
     height: 100%;
+    line-height: 80px;
+    vertical-align: middle;
 }
 
+.header-left ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 0.8em;
+}
+.header-left li{
+    margin-right: 2em;
+}
+
+.header-right li{
+    margin-left: 2em;
+}
+
+.header-right ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.8em;
+}
+
+.blue-button{
+    background-color: #0061ff;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    color: white;
+}
 /* JUMBOTRON */
 .jumbotron-section{
     background-color: #b4d0e7;
