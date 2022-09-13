@@ -253,16 +253,18 @@ header{
     color:black;
     border: 1px solid black;
 }
+
 /* SECTION-3 */
 .section-3-container{
     width: calc(60%);
     height: 800px;
     margin: 0 auto;
+    margin-bottom: 400px;
 }
 
 .sec-3-title{
     height: calc(10%);
-    background-color: yellow;
+    font-size: 1.7em;
 }
 
 .sec-3-row{
@@ -273,11 +275,21 @@ header{
 }
 
 .sec-3-col{
-    height: 300px;
+    height: 500px;
     width: calc(100% / 3 - 10px);
-    background-color: bisque;
 }
 
+.sec-3-col-image{
+    height: calc(50%);
+}
+
+.sec-3-col-image img{
+    max-width: 100%;
+}
+
+.sec-3-col-text{
+    height: calc(50%);
+}
 /* SECTION-4 */
 .section-4-container{
     width: calc(60%);
