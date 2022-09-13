@@ -181,7 +181,7 @@ header{
 }
 .sec-1-col{
     width: calc(100% / 3 - 10px);
-    height: 120vh;
+    height: 110vh;
     border: 1px solid #e7e7e9;
 }
 
