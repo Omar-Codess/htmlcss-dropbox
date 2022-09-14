@@ -45,7 +45,7 @@ header a{
     justify-content: center;
 }
 
-img{
+.section-5-container img{
     max-width: 60%;
 }
 
@@ -536,7 +536,6 @@ footer{
 .footer-container{
     height: 400px;
     width: calc(70%);
-    display: flex;
     margin: 0 auto;
 }
 
@@ -545,11 +544,37 @@ footer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
 }
 
 .footer-col{
     height: calc(80%);
     width: calc(100% / 5 - 10px);
-    background-color: white;
+}
+
+.footer-col li{
+    list-style-type: none;
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+.ttl{
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-bottom: .8em;
+}
+
+.footer-hr{
+    width: calc(10%);
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.fa-earth-asia{
+    margin-right: 10px;
+}
+
+.language span{
+    margin-right: 5px;
 }
