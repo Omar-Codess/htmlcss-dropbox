@@ -15,7 +15,13 @@ header a{
     color: black;
 }
 
-hr{
+.sec-1-col hr{
+    margin-left: 20px;
+    width: calc(20%);
+    margin-top: 40px;
+}
+
+.section-5-container hr{
     margin-left: 20px;
     width: calc(20%);
     margin-top: 40px;
@@ -23,6 +29,20 @@ hr{
 
 .hr-margin{
     margin-top: 60px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.q{
+    width: calc(85%);
+}
+
+.chevron{
+    width: calc(15%);
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -493,12 +513,14 @@ header{
 
 .sec-7-title{
     height: calc(20%);
-    background-color: lightsalmon;
+}
+
+.sec-7-title{
+    font-size: 1.7em;
 }
 
 .sec-7-text{
     height: calc(80%);
-    background-color: goldenrod;
 }
 
 /* FOOTER */
