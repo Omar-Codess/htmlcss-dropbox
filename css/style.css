@@ -49,6 +49,10 @@ header a{
     max-width: 60%;
 }
 
+.sec-5-companies img{
+    filter: invert(1);
+}
+
 .one{
     background-color: #a2d39b;
 }
