@@ -14,6 +14,16 @@ header a{
     text-decoration: none;
     color: black;
 }
+
+hr{
+    margin-left: 20px;
+    width: calc(20%);
+    margin-top: 40px;
+}
+
+.hr-margin{
+    margin-top: 60px;
+}
 /* HEADER */
 header{
     height: 80px;
@@ -189,7 +199,7 @@ header{
 }
 .sec-1-col{
     width: calc(100% / 3 - 10px);
-    height: 110vh;
+    height: 115vh;
     border: 1px solid #e7e7e9;
 }
 
