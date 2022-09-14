@@ -460,13 +460,27 @@ header{
 .sec-6-text{
     width: calc(30%);
     height: calc(100%);
-    background-color: sienna;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-6-text h2{
+    font-size: 2.5em;
+    color: #61082b;
 }
 
 .sec-6-cta{
     width: calc(30%);
     height: calc(100%);
-    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-white-button{
+    padding: 0.5em;
+    background-color: white;
 }
 
 /* SECTION-7 */
